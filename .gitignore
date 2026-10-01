@@ -1,0 +1,61 @@
+HELP.md
+.gradle
+build/
+.env
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Added before first GitHub push
+node_modules/
+.next/
+dist/
+target/
+target.nosync/
+.gradle/
+.terraform/
+*.tfstate
+*.tfstate.*
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.remember/
+.superpowers/
+.worktrees/
+.playwright-mcp/
+.venv/
+graphify-out/
+Pods/
+*.log
